@@ -1,6 +1,6 @@
 $ git checkout repository
 
-$ mvn install:install-file -DgroupId=com.platonicsoft -DartifactId=pscore -Dversion=2.0.2 -Dfile=C:/Work/projects/pscore/target/pscore-2.0.2.jar -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=.  -DcreateChecksum=true
+$ mvn install:install-file -DgroupId=com.platonicsoft -DartifactId=pscore -Dversion=2.0.2 -Dfile=C:/Work/heroku/pscore/target/pscore-2.0.2.jar -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=.  -DcreateChecksum=true
 
 $ git add -A . && git commit -m "Release 2.0.2"
 
